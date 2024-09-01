@@ -18,6 +18,7 @@ from django.contrib import admin
 from django.urls import path , include 
 
 urlpatterns = [
+    path('todoAndTimer/', include('todoAndTimer.urls'))
     path('sample_app/', include('sample_app.urls')),   # Add
     path('admin/', admin.site.urls),
 ]

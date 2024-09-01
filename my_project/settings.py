@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'sample_app.apps.SampleAppConfig',#サンプル追加
+    'todoAndTimer.apps.TodoandtimerConfig'#作りたいやつ追加
 ]
 
 MIDDLEWARE = [
