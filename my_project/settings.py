@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'sample_app.apps.SampleAppConfig',#サンプル追加
-    'todoAndTimer.apps.TodoandtimerConfig'#作りたいやつ追加
+    'todoandtimer.apps.TodoandTimerConfig'
 ]
 
 MIDDLEWARE = [
@@ -116,7 +116,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
-#CSSはここに追加を指定する
+
 STATIC_URL = 'static/'
 
 # Default primary key field type

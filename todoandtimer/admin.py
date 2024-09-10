@@ -1,3 +1,3 @@
-from django.contrib import admin # type: ignore
+from django.contrib import admin
 
 # Register your models here.
